@@ -30,6 +30,8 @@ app.use(logger('dev'))
 app.use(express.static(CLIENT_PATH))
 app.use('/', chatRouter)
 
+app.disable('x-powered-by')
+
 // Crea tabla al iniciar
 await createMessagesTable()
 
