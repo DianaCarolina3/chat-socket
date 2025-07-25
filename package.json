@@ -1,0 +1,28 @@
+{
+  "name": "chat-socket",
+  "version": "1.0.0",
+  "description": "Chat con Node JS, Socket.io, SQLite, HTML y CSS, arquitectura MVC",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "node --watch server/app.js"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "socket.io",
+    "sql",
+    "html",
+    "css"
+  ],
+  "author": "Diana Campuzano",
+  "license": "MIT",
+  "dependencies": {
+    "@libsql/client": "0.15.10",
+    "dotenv": "^17.2.0",
+    "express": "5.1.0",
+    "morgan": "1.10.1",
+    "socket.io": "4.8.1"
+  }
+}

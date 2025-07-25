@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>ChatSocket</title>
+</head>
+<body>
+    <section id="chat">
+        <ul id="messages"></ul>
+        <form id="form">
+            <input type="text" name="message" id="input" placeholder="Type a message"
+            autocomplete="off"/>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!--    <script type="module">-->
+    <!--        // importamos una dependencia externa-->
+    <!--        import { io } from 'https://cdn.socket.io/4.3.2/socket.io.esm.min.js'-->
+    <!--        // se conecta al mismo servidor desde el cual se cargó la página web-->
+    <!--        const socket = io()-->
+    <!--    </script>-->
+
+
+<!--    crea una conexión entre el navegador y un servidor Socket.IO-->
+<!--    sin necesidad de internet y usando la libreria de mi backend, no externa-->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>
