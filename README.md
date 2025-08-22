@@ -2,7 +2,7 @@
 
 ## Description
 
-Chat con Node JS, Socket.io, SQLite, HTML y CSS, implementando arquitectura MVC.
+Chat con Node JS, WebSocket, SQLite, HTML y CSS, implementando arquitectura MVC.
 
 ## Tools
 
