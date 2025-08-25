@@ -10,6 +10,7 @@ Proyecto donde realizo un chat con Node JS, Express, usando el protocolo de webs
 - SQLite con Turso
 - HTML
 - CSS
+
 El proyecto lo realizo basándome en arquitectura modelo-vista-controlador (MVC)
 
 ### License
