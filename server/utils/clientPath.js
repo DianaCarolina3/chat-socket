@@ -6,4 +6,4 @@ import { fileURLToPath } from 'url'
 // no hay problema si ejecutamos la app desde otro directorio
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-export const CLIENT_PATH = path.join(__dirname, '..', '..', 'client', 'public')
+export const CLIENT_PATH = path.join(__dirname, '..', '..', 'client')
