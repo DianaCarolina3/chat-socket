@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Proyecto donde realizo un chat con Node JS, Express, usando el protocolo de websocket por medio de Socket.io. Integra base de datos relacional (MYSQL2), la base de datos esta alojada en Turso que implementa SQLite, la vista al usuario la realizo con HTML y CSS. Un usuario puede conectarse e iniciar un chat, enviar mensajes, los mensajes quedan guardados, si la conexion se pierde al volver aparecen los mensajes. El servidor puede responder a varias conexiones al tiempo.
+Proyecto donde realizo un chat con Node JS, Express, usando el protocolo de websocket por medio de Socket.io. Integra base de datos relacional, la base de datos esta alojada en Turso que implementa SQLite, la vista al usuario la realizo con HTML y CSS. Un usuario puede conectarse e iniciar un chat, enviar mensajes, los mensajes quedan guardados, si la conexion se pierde al volver aparecen los mensajes. El servidor puede responder a varias conexiones al tiempo.
 
 <img src="https://raw.githubusercontent.com/DianaCarolina3/chat-socket/main/client/images/Chat Socket DevTools.png" width="500"  alt="chat socket proyect"/>
 <img src="https://raw.githubusercontent.com/DianaCarolina3/chat-socket/main/client/images/Screenshot-chat-socket.png" width="500" alt="compare two chats" />
